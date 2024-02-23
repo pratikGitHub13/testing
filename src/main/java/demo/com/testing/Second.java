@@ -20,6 +20,10 @@ public class Second {
 		
 		driver.manage().window().maximize();
 		
+		driver.close();
+		
+		driver.quit();
+		
 	}
 
 }
